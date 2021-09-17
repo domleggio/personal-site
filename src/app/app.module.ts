@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MainContainerComponent } from './components/main-container/main-container.component';
 import { HelloSectionComponent } from './components/hello-section/hello-section.component';
+import { PhotoComponent } from './components/photo/photo.component';
+import { AboutSectionComponent } from './components/about-section/about-section.component';
+import { TravelSectionComponent } from './components/travel-section/travel-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     MainContainerComponent,
-    HelloSectionComponent
+    HelloSectionComponent,
+    PhotoComponent,
+    AboutSectionComponent,
+    TravelSectionComponent
   ],
   imports: [
     BrowserModule,
