@@ -45,3 +45,7 @@
         flex-direction: column-reverse;
     }
 }
+
+.home-padding {
+    padding: 100px 0;
+}

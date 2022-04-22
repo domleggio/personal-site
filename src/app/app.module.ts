@@ -10,6 +10,8 @@ import { PhotoComponent } from './components/photo/photo.component';
 import { AboutSectionComponent } from './components/about-section/about-section.component';
 import { TravelSectionComponent } from './components/travel-section/travel-section.component';
 import { TravelPhotoComponent } from './components/travel-photo/travel-photo.component';
+import { WhatIDoSectionComponent } from './components/what-i-do-section/what-i-do-section.component';
+import { WhatIDoCardComponent } from './components/what-i-do-card/what-i-do-card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { TravelPhotoComponent } from './components/travel-photo/travel-photo.com
     PhotoComponent,
     AboutSectionComponent,
     TravelSectionComponent,
-    TravelPhotoComponent
+    TravelPhotoComponent,
+    WhatIDoSectionComponent,
+    WhatIDoCardComponent
   ],
   imports: [
     BrowserModule,
