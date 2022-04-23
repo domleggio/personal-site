@@ -1,10 +1,12 @@
 .pill {
-    border: 1px solid #104E8B;
+    border: 2px solid #104E8B;
     padding: 10px 20px;
     border-radius: 4px;
-    font-size: 14px
+    font-size: 14px;
+    color: black
 }
 
 .home-padding {
     padding: 100px 0;
 }
+

@@ -9,8 +9,8 @@ import { HelloSectionComponent } from './components/hello-section/hello-section.
 import { PhotoComponent } from './components/photo/photo.component';
 import { AboutSectionComponent } from './components/about-section/about-section.component';
 import { TravelSectionComponent } from './components/travel-section/travel-section.component';
-import { TravelPhotoComponent } from './components/travel-photo/travel-photo.component';
 import { WhatIDoSectionComponent } from './components/what-i-do-section/what-i-do-section.component';
+import { WebDevelopmentSectionComponent } from './components/web-development-section/web-development-section.component';
 
 @NgModule({
   declarations: [
@@ -21,8 +21,8 @@ import { WhatIDoSectionComponent } from './components/what-i-do-section/what-i-d
     PhotoComponent,
     AboutSectionComponent,
     TravelSectionComponent,
-    TravelPhotoComponent,
     WhatIDoSectionComponent,
+    WebDevelopmentSectionComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,13 @@
 .test {
     height: 300px;
     width: 300px;
-    border: 20px solid rgba(0, 0, 0, 0.07);
+    border: 15px solid rgba(0, 0, 0, 0.17);
     margin: 0 auto;
     border-radius: 50%;
+}
+
+.test2 {
+    border: 15px solid rgba(0, 0, 0, 0.07);
+    border-radius: 50%;
+
 }

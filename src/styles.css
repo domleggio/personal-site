@@ -6,14 +6,18 @@
     color: black;
     opacity: .8;
     font-size: 32px;
-    font-weight: 600
+    font-weight: 300
 }
-
+.clickable {
+  cursor: pointer
+}
 
 .themeColor {
-    color: #104E8B
+    color: #104E8B;
 }
-
+.themeColorSecondary{
+  color: #368FE7
+}
 @media only screen and (max-width: 575px) {
   
     .sectionSeparator {
