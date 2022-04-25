@@ -12,6 +12,7 @@ import { TravelSectionComponent } from './components/travel-section/travel-secti
 import { WhatIDoSectionComponent } from './components/what-i-do-section/what-i-do-section.component';
 import { WebDevelopmentSectionComponent } from './components/web-development-section/web-development-section.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
