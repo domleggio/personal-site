@@ -1,6 +1,4 @@
-import { Component, Inject, OnInit } from '@angular/core';
-import { DOCUMENT } from '@angular/common';
-
+import { Component, ElementRef, OnInit } from '@angular/core';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
@@ -8,14 +6,15 @@ import { DOCUMENT } from '@angular/common';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor(@Inject(DOCUMENT) private document: Document) { }
+  constructor() {
+  }
 
 
-  public scrollToHome(){
-    this.document.getElementById('home')!.scrollIntoView()
+  go(id: string){
+    document.getElementById(id)?.scrollIntoView()
   }
 
   ngOnInit(): void {
-  }
 
+   }
 }
