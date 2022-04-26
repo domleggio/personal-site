@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -11,7 +10,6 @@ import { AboutSectionComponent } from './components/about-section/about-section.
 import { TravelSectionComponent } from './components/travel-section/travel-section.component';
 import { WhatIDoSectionComponent } from './components/what-i-do-section/what-i-do-section.component';
 import { WebDevelopmentSectionComponent } from './components/web-development-section/web-development-section.component';
-import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 
 
 @NgModule({
@@ -25,11 +23,11 @@ import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
     TravelSectionComponent,
     WhatIDoSectionComponent,
     WebDevelopmentSectionComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxPageScrollCoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
