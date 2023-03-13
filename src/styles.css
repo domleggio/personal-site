@@ -6,7 +6,7 @@
     color: black;
     opacity: .8;
     font-size: 32px;
-    font-weight: 300
+    font-weight: 400
 }
 .clickable {
   cursor: pointer
@@ -17,6 +17,10 @@
 }
 .themeColorSecondary{
   color: #368FE7
+}
+
+.white {
+  color: #fff
 }
 @media only screen and (max-width: 575px) {
   
