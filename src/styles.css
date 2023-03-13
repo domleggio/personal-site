@@ -5,8 +5,16 @@
 .headerText {
     color: black;
     opacity: .8;
-    font-size: 32px;
-    font-weight: 400
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.whiteHeaderText {
+  color: rgb(255, 255, 255);
+  opacity: .8;
+  font-size: 46px;
+  font-weight: 400
 }
 .clickable {
   cursor: pointer
@@ -17,6 +25,10 @@
 }
 .themeColorSecondary{
   color: #368FE7
+}
+
+.yellow {
+  color: rgb(228, 255, 132)
 }
 
 .white {
@@ -33,4 +45,10 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+.rowWithBlueColor {
+  background-color: #104E8B;
+  border-radius: 1px;
+  box-shadow: 0px 10px 20px 4px #00000015;
 }
