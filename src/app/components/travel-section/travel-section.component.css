@@ -8,3 +8,8 @@
     border-style: none
 }
 
+.quoteText {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
