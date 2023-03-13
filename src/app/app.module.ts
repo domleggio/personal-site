@@ -23,7 +23,7 @@ import { WebDevelopmentSectionComponent } from './components/web-development-sec
     TravelSectionComponent,
     WhatIDoSectionComponent,
     WebDevelopmentSectionComponent,
-    NavbarComponent
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
