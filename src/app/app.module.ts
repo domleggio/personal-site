@@ -10,6 +10,7 @@ import { AboutSectionComponent } from './components/about-section/about-section.
 import { TravelSectionComponent } from './components/travel-section/travel-section.component';
 import { WhatIDoSectionComponent } from './components/what-i-do-section/what-i-do-section.component';
 import { WebDevelopmentSectionComponent } from './components/web-development-section/web-development-section.component';
+import { ContactMeComponent } from './components/contact-me/contact-me.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { WebDevelopmentSectionComponent } from './components/web-development-sec
     WhatIDoSectionComponent,
     WebDevelopmentSectionComponent,
     NavbarComponent,
+    ContactMeComponent,
   ],
   imports: [
     BrowserModule,
