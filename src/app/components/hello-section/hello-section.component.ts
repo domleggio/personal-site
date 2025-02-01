@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
+import { PhotoComponent } from '../photo/photo.component';
 
 @Component({
     selector: 'app-hello-section',
     templateUrl: './hello-section.component.html',
     styleUrls: ['./hello-section.component.css'],
-    standalone: true
+    standalone: true,
+    imports: [PhotoComponent]
 })
 export class HelloSectionComponent implements OnInit {
 
