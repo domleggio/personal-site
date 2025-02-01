@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-hello-section',
-  templateUrl: './hello-section.component.html',
-  styleUrls: ['./hello-section.component.css']
+    selector: 'app-hello-section',
+    templateUrl: './hello-section.component.html',
+    styleUrls: ['./hello-section.component.css'],
+    standalone: true
 })
 export class HelloSectionComponent implements OnInit {
 
